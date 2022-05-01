@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework2</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Tip Calculator</h1>
+            <p class="text-left">Bill amount</p>
+            <i class="bi bi-cash-stack"></i>
+            <input class="input-amount" type="text">
+            <p class="text-left">Number of guests</p>
+            <i class="bi bi-people-fill"></i>
+            <input type="text" value="" class="input-number">
+            <p class="text-left">Service Quanlity</p>
+            <select class="select-quality" >
+                <option>Choose...</option>
+                <option value="30">30% - Outstanding</option>
+                <option value="20">20% - Good</option>
+                <option value="15">15% - It's OK</option>
+                <option value="10">10% - Bad</option>
+                <option value="5">5% - Terrible</option>
+            </select>
+            <p>Tip $<span class="tip-person"></span> each person</p>
+            <button type="button" class="btn-tip">Calculate</button>
+        </form>
+    </div>
+</body>
+</html>

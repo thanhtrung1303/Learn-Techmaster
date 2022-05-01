@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <style>
+      body {
+        height: 3000px;
+      }
+      .call-button {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        background-color: red;
+        padding: 15px;
+        border-radius: 50%;
+        color: white;
+      }
+      .form-field {
+        position: relative;
+        width: 300px;
+        margin-top: 30px;
+      }
+      .form-field input {
+        width: 100%;
+        height: 35px;
+        border-radius: 10px;
+        background-color: orange;
+        border: none;
+      }
+      .form-field button {
+        position: absolute;
+        right: 5px;
+        top: 10px;
+        background-color: red;
+        border-radius: 10px;
+        border: none;
+      }
+      .form-field label {
+        position: absolute;
+        color: rgb(173, 169, 169);
+        top: 11px;
+        left: 11px;
+      }
+      input:focus + label {
+        top: -19px;
+        color: black;
+      }
+      .main-menu {
+        display: flex;
+        list-style: none;
+        font-size: 30px;
+      }
+
+      .menu-item {
+        position: relative;
+        padding: 30px;
+        background-color: aqua;
+      }
+      .menu-link {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .sub-menu {
+        display: none;
+        position: absolute;
+        list-style: none;
+        background-color: cornflowerblue;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-size: 30px;
+      }
+      .sub-link {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .menu-item:hover .sub-menu {
+        display: block;
+      }
+      .sub-sub-menu {
+        display: none;
+        position: absolute;
+        list-style: none;
+        background-color: orange;
+        margin-left: 80px;
+        left: 0px;
+        width: 180px;
+        height: 80px;
+        font-size: 20px;
+      }
+      .sub-sub-link {
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .sub-menu-item2:hover .sub-sub-menu {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="call-button">
+      <i class="bi bi-telephone"></i>
+    </div>
+    <div class="form-field">
+      <input type="text" id="name" name="name" />
+      <label for="name">Name</label>
+      <button>
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+
+    <nav class="nav">
+      <ul class="main-menu">
+        <li class="menu-item">
+          <a href="" class="menu-link">categories</a>
+          <ul class="sub-menu">
+            <li class="sub-menu-item">
+              <a class="sub-link" href="">sub-menu1</a>
+            </li>
+            <li class="sub-menu-item2">
+              <a class="sub-link" href="">sub-menu2</a>
+              <ul class="sub-sub-menu">
+                <li class="sub-sub-item">
+                  <a href="" class="sub-sub-link">sub-sub-menu1</a>
+                  <a href="" class="sub-sub-link">sub-sub-menu2</a>
+                  <a href="" class="sub-sub-link">sub-sub-menu3</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a class="sub-link" href="">sub-menu3</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a href="" class="menu-link">contact</a>
+        </li>
+        <li class="menu-item">
+          <a href="" class="menu-link">blog</a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

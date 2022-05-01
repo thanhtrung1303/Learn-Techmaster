@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-inline-block {
+  word-spacing: -1ch;
+}
+
+.d-inline-block {
+  display: inline-block;
+  word-spacing: normal;
+}
+
+.menu-link {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  background-color: white;
+  font-size: 14px;
+  border-radius: 15px;
+  border: 1px solid rgb(206, 204, 204);
+  padding: 6px 15px 6px;
+  margin-left: 5px;
+}
+
+.logo-wrapper {
+  width: 155.5px;
+  height: 50px;
+  line-height: 28px;
+  margin-top: -10px;
+  margin-right: 50px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.item {
+  width: 160px;
+  vertical-align: text-top;
+  padding: 5px;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: fixed;
+  top: 0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  line-height: 1.4;
+}
+.item2 {
+  width: 320px;
+  vertical-align: text-top;
+  padding: 5px;
+}
+
+.section {
+  word-spacing: 2px;
+  font-weight: lighter;
+}
+
+h2 {
+  font-weight: normal;
+  margin-top: 60px;
+}
+.section-header {
+  word-spacing: 2px;
+}
+.item3 {
+  width: 215px;
+  height: 450px;
+}
+.search-bar {
+  margin-left: 50px;
+}
+
+input {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  height: 30px;
+  width: 300px;
+  padding-left: 20px;
+}

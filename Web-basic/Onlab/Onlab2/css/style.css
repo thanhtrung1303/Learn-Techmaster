@@ -1,0 +1,47 @@
+h1 {
+  color: rgb(99, 36, 36);
+  background-color: rgb(197, 20, 20);
+  text-align: center;
+  text-transform: capitalize;
+}
+p {
+  color: slateblue;
+  font-size: 15px;
+  text-align: justify;
+}
+h2 {
+  color: blue;
+  background-color: rgb(106, 86, 197);
+  text-align: justify;
+  text-transform: capitalize;
+  text-decoration-line: underline;
+  text-shadow: -2px 2px 2px;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  line-height: 1.5;
+}
+h1 {
+  font-weight: bold;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: rgba(232, 247, 231, 0.5);
+}
+.violet {
+  color: violet;
+}
+li a {
+  font-size: 15px;
+  color: rgb(199, 112, 117);
+  text-decoration: none;
+}
+.menu-link.active {
+  background-color: rgb(21, 255, 0);
+}
+body {
+  background-color: rgb(158, 121, 173);
+  background-image: url(/img/crocus-hd-beautiful.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

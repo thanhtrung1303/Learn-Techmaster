@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(255, 244, 244);
+}
+.container {
+  width: 450px;
+  height: 400px;
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-left {
+  text-align: left;
+  margin-left: 20px;
+  line-height: 5px;
+  font-weight: bold;
+}
+.content {
+  width: 500px;
+  height: 20px;
+  text-align: right;
+}
+
+input {
+  position: relative;
+  width: 365px;
+  height: 30px;
+  padding-left: 35px;
+  border-top-style:double;
+  border-color: rgb(235, 235, 235);
+  outline: none;
+}
+
+select {
+  width: 410px;
+  height: 35px;
+  border-color: rgb(235, 235, 235);
+  outline: none;
+}
+span {
+  font-weight: bold;
+}
+
+.btn-tip {
+  width: 100px;
+  height: 40px;
+  background-color: rgb(240, 240, 240),
+}
+
+.bi {
+  position: absolute;
+  margin-top: 1px;
+  background-color: rgb(240, 240, 240);
+  padding: 8px;
+  z-index: 9999;
+}
+

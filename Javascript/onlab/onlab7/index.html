@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 id="h1">hello</h1>
+    <div class="container">
+      <div class="product-filter">
+        <div class="filter-item">
+          <select name="sort" id="sort" class="sort">
+            <option disabled selected>---</option>
+            <option value="1">Giá tăng dần</option>
+            <option value="2">Giá giảm dần</option>
+            <option value="3">Số lượng tăng dần</option>
+            <option value="4">Số lượng giảm dần</option>
+          </select>
+        </div>
+
+        <div class="filter-item">
+          <input type="checkbox" id="status" />
+          <label for="status">Còn hàng</label>
+        </div>
+      </div>
+      <template class="product-template">
+        <tr class="product-row">
+          <td class="product-name">Samsung S22 Ultra</td>
+          <td class="product-category">Điện thoại</td>
+          <td class="product-price">2999999</td>
+          <td class="product-quantity">1</td>
+        </tr>
+      </template>
+      <table class="product-table">
+        <thead>
+          <tr>
+            <th>Tên sản phẩm</th>
+            <th>Danh mục</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+          </tr>
+        </thead>
+
+        <tbody></tbody>
+      </table>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

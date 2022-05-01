@@ -1,0 +1,43 @@
+.container {
+  width: 450px;
+  height: 250px;
+  background-color: whitesmoke;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  width: 500px;
+  height: 20px;
+  text-align: right;
+}
+
+input {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px 10px;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+
+.input-height{
+  margin-left: 10px;
+}
+
+.btn-bmi {
+  background-color: rgba(250, 120, 14, 0.9);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  border-radius: 10px 10px;
+  border: none;
+}
+.btn-bmi:active {
+  background-color: rgba(250, 120, 14, 0.8);
+}
+span {
+  font-weight: bold;
+}

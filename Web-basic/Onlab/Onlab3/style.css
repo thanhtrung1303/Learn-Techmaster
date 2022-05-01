@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.list {
+  word-spacing: -1ch;
+}
+.item {
+  display: inline-block;
+  width: 217.5px;
+  height: 100px;
+  background-color: blueviolet;
+  word-spacing: normal;
+}
