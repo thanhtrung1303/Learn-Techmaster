@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc9a73ee-3a3c-4a67-94e8-0658dc02fa48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../bt10/ReadJson/ReadJson/Movie.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bt10/ReadJson/ReadJson/Person.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/btvn9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManager/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManager/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManager/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManager/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductManager/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProductManager/src/Product.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectId" id="23S8rzyXaqJI9sfZg4bYxAwRSth" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bt10" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="btvn9" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc9a73ee-3a3c-4a67-94e8-0658dc02fa48" name="Changes" comment="" />
+      <created>1641716331282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641716331282</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
