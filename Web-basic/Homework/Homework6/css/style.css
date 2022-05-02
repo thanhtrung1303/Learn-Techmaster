@@ -32,7 +32,7 @@
 
 .banner {
   background: url(https://demo.themeies.com/leospa/images/leaf.png) no-repeat
-    left center/12.5%;
+    left center/10%;
   height: 380px;
   margin-top: 100px;
 }
@@ -341,18 +341,20 @@
   position: relative;
   z-index: 1;
   margin-left: 30px;
+  width: 100%;
 }
 
 .information-name {
-  width: 290px;
+  width: 70%;
   height: 130px;
   background-color: white;
   box-shadow: 0 5px 20px #f0f0f0;
   margin-top: -80px;
-  left: 25px;
+  left: 15%;
   position: absolute;
   z-index: 2;
-}
+} 
+
 .information-name h3 {
   color: #263a41;
   font-size: 22px;

@@ -118,10 +118,15 @@ li:hover > .sign {
   font-size: 11px;
 }
 
-.menu-item a:hover {
-  color: #f36d00;
+.menu-item:hover,
+.sub-menu-item:hover,
+.sub-sub-item:hover {
   background-color: #e9e5e5;
 }
+.menu-item a:hover {
+  color: #f36d00;
+}
+
 .menu-link {
   position: relative;
   text-decoration: none;
