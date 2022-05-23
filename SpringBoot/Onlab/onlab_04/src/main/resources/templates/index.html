@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head th:replace="template.html :: header('index')"></head>
+  <body>
+    <header th:insert="template.html :: topmenu"></header>
+    <h1>Home Page</h1>
+    <div>Hello World</div>
+    <div th:text="${name}">name</div>
+    <div th:text="'Book:' + ${book.title} + ' - ' + ${book.author}"></div>
+    <div th:text="'Book:' + |${book.title} : ${book.author}"></div>
+    <div th:utext="${message}"></div>
+    <div th:text="${book}"></div>
+
+    <!-- <a href="/text">text</a> -->
+    <a th:href="@{/text}">text page</a>
+    <br />
+    <header th:replace="template.html :: footer"></header>
+  </body>
+</html>

@@ -2,16 +2,12 @@ header {
   height: 115px;
 }
 .link-bar {
-  width: 100%;
-  font-size: 70%;
+  /* width: 100%; */
+  font-size: 13px;
   background: rgba(0, 0, 0, 0.03);
 }
 .top-list {
-  /* width: 100%; */
-  font-size: 0.7rem;
   height: 25px;
-  justify-content: center;
-  align-items: center;
 }
 .top-list-item-blue a {
   text-decoration: none;
@@ -35,10 +31,10 @@ header {
 .logo-item img {
   width: 127px;
   height: 40px;
+  margin-left: 15px;
 }
 
 .logo-bar {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }

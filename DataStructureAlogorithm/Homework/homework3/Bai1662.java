@@ -1,4 +1,4 @@
-package homework3;
+package Homework.homework3;
 
 class Bai1662 {
     public static boolean arrayStringsAreEqual(String[] word1, String[] word2) {

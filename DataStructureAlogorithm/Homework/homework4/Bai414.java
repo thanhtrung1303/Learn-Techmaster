@@ -1,4 +1,4 @@
-package homework4;
+package Homework.homework4;
 
 import java.util.Collections;
 import java.util.HashSet;

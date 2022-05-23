@@ -1,4 +1,4 @@
-package homework10;
+package Homework.homework10;
 
 import java.util.Stack;
 

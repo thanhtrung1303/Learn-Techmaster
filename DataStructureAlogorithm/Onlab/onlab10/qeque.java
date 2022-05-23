@@ -1,3 +1,4 @@
+package Onlab.onlab10;
 
 public interface qeque {
 

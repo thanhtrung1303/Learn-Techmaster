@@ -1,3 +1,5 @@
+package Onlab.onlab10;
+
 class MyClass implements IMyInterFace{
 
     @Override

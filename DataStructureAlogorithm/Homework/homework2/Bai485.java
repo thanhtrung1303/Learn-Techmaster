@@ -1,4 +1,4 @@
-package homework2;
+package Homework.homework2;
 
 class Bai485 {
 

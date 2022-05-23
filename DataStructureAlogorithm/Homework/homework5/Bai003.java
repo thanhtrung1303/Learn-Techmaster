@@ -1,4 +1,4 @@
-package homework5;
+package Homework.homework5;
 
 public class Bai003 {
     public static int total(int a, int b) {

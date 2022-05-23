@@ -1,4 +1,4 @@
-package homework9;
+package Homework.homework9;
 
 public class ListNode {
     public int data;

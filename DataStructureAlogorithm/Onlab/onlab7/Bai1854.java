@@ -1,3 +1,5 @@
+package Onlab.onlab7;
+
 public class Bai1854 {
     public int maximumPopulation(int[][] logs) {
         int[] arr = new int[101];

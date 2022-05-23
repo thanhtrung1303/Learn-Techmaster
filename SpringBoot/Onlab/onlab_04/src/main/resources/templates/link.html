@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head th:replace="template.html :: header('link')"> </head>
+  <body>
+    <header th:insert="template.html :: topmenu"></header>
+    <a th:href="@{/about}">Abosolute Link</a><br />
+    <a th:href="@{~/topic/thymeleaf}">Relative link 1</a><br />
+    <a th:href="@{topic/thymeleaf}">Relative link 2</a><br />
+    <a th:href="@{/about(foo='bar',tom='jerry')}">Query string parameters</a
+    ><br />
+    <a th:href="|/${dynamiclink}|">dynamic link 1</a><br />
+    <a th:href="@{${dynamiclink}}">dynamic link 2</a><br />
+    <a th:href="@{/page/(id=${dynamiclink})}">dynamic link 3</a><br />
+    <header th:replace="template.html :: footer"></header>
+  </body>
+</html>

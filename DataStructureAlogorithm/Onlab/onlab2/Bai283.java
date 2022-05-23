@@ -1,4 +1,4 @@
-package onlab2;
+package Onlab.onlab2;
 
 import java.util.Arrays;
 

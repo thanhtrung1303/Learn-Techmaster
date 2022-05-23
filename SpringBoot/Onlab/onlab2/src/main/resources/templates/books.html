@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head th:replace="template.html :: header('product')"> </head>
+    <header th:insert="template.html :: topmenu"></header>
+  <body>
+    <div class="container">
+      <p>Book</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">title</th>
+            <th scope="col">author</th>
+            <th scope="col">year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr th:each="book, iStat:${books}">
+          <td th:text="${book.id}"></td>
+          <td th:text="${book.title}"></td></td>
+          <td th:text="${book.author}"></td>
+          <td th:text="${book.year}"></td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+    <header th:replace="template.html :: footer"></header>
+  </body>
+</html>

@@ -1,3 +1,5 @@
+package Onlab.onlab5;
+
 public class DeQuy {
 
     public static int giaithua(int n) {

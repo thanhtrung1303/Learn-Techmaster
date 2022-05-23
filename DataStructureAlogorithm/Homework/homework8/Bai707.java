@@ -1,4 +1,4 @@
-package homework8;
+package Homework.homework8;
 
 public class Bai707 {
     public static class MyNode {

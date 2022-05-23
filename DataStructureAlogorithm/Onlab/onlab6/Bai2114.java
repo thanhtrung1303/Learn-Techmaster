@@ -1,3 +1,5 @@
+package Onlab.onlab6;
+
 class Bai2114 {
     public int mostWordsFound(String[] sentences) {
 

@@ -1,4 +1,4 @@
-package homework5;
+package Homework.homework5;
 
 public class Bai001 {
     public static int search(int[] nums, int n, int x) {

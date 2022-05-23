@@ -1,3 +1,5 @@
+package Onlab.onlab7;
+
 public class Bai520 {
     public static boolean detectCapitalUse(String word) {
         char[] a = word.toCharArray(); // Phương thức toCharArray() được sử dụng để chuyển đổi chuỗi thành các mảng ky tự. 

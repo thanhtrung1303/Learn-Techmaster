@@ -1,3 +1,5 @@
+package Onlab.onlab5;
+
 public class DeQuy1 {
     public static void P(int[] a, int index) {
         if (index == 0) {

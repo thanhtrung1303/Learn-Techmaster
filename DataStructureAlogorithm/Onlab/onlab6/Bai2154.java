@@ -1,3 +1,5 @@
+package Onlab.onlab6;
+
 import java.util.Arrays;
 
 public class Bai2154 {

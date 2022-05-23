@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head th:replace="template.html :: header('product')"> </head>
+  <body>
+    <header th:insert="template.html :: topmenu"></header>
+    <div class="container">
+      <p>Products</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">id</th>
+            <th scope="col">title</th>
+            <th scope="col">description</th>
+            <th scope="col">location</th>
+            <th scope="col">min_salary</th>
+            <th scope="col">max_salary</th>
+            <th scope="col">email_to</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr th:each="jobs, iStat:${jobs}">
+            <th scope="row" th:text="${iStat.index} +1"></th>
+            <td th:text="${jobs.id}"></td>
+            <td th:text="${jobs.title}">Otto</td>
+            <td th:text="${jobs.description}">@mdo</td>
+            <td th:text="${jobs.location}">@mdo</td>
+            <td th:text="${jobs.min_salary}">@mdo</td>
+            <td th:text="${jobs.max_salary}">@mdo</td>
+            <td th:text="${jobs.email_to}">@mdo</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <header th:replace="template.html :: footer"></header>
+  </body>
+</html>

@@ -1,4 +1,4 @@
-package homework4;
+package Homework.homework4;
 
 public class Bai169 {
     public static int majorityElement(int[] nums) {

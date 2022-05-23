@@ -1,3 +1,5 @@
+package Onlab.onlab3;
+
 public class Bai1295 {
     public static int findNumbers(int[] nums) {
         int count = 0;

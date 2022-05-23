@@ -1,3 +1,5 @@
+package Onlab.onlab6;
+
 public class Bai2176 {
     public int countPairs(int[] nums, int k) {
         int count = 0;

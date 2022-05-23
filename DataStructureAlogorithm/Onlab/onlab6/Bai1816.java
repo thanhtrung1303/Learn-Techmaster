@@ -1,3 +1,5 @@
+package Onlab.onlab6;
+
 public class Bai1816 {
     public String truncateSentence(String s, int k) {
         String[] arr = s.split(" ");

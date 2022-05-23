@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="col-sm-4">
+      </select>
+    <div class="col-sm-4">
+        <label for="city" class="col-sm-2 col-form-label">City</label>
+        <select>
+            <option th:each="state : ${T(com.spring_boot.onlab_03.model.City).values()}" th:value="${state}"
+            th:text="${state.label}">
+        </option>
+        </select>
+    </div>
+  </body>
+</html>

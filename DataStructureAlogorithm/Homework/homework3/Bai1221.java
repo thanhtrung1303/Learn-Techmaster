@@ -1,4 +1,4 @@
-package homework3;
+package Homework.homework3;
 
 public class Bai1221 {
 

@@ -1,3 +1,5 @@
+package Onlab.onlab6;
+
 public class Bai1929 {
      public int[] getConcatenation(int[] nums) {
         int len = nums.length;

@@ -1,3 +1,5 @@
+package Onlab.onlab7;
+
 class Bai1550 {
     public static boolean threeConsecutiveOdds(int[] arr) {
     for (int i = 0; i < arr.length-2; i++) {

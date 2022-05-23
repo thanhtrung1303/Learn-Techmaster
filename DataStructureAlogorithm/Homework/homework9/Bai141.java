@@ -1,4 +1,4 @@
-package homework9;
+package Homework.homework9;
 
 class Bai141 {
     public boolean hasCycle(ListNode head) {
